@@ -1,0 +1,23 @@
+.cabecalho {
+    align-items: center;
+    background-color: #D5E4F6;
+    display: grid;
+    grid-template: auto / auto 1fr;
+    padding: 2em 1.5em 0;
+}
+
+.cabecalho__menu-hamburguer i::before {
+    content: url("../../../assets/imagens/icones/menu-hamburguer.png");
+}
+
+.cabecalho__titulo {
+    font-size: 26px;
+    font-weight: 700;
+    justify-self: center;
+}
+
+.cabecalho__titulo::before {
+    content: url("../../../assets/imagens/icones/logo.png");
+    display: inline-block;
+    width: 24px;
+}
