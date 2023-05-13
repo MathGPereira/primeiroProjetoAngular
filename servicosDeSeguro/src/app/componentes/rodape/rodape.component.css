@@ -2,4 +2,34 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 2em 1.5em;
+    text-align: center;
+}
+
+.rodape__lista {
+    color: #828282;
+    column-gap: 1em;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    row-gap: .5em;
+}
+
+.icone {
+    margin-right: 2em;
+}
+
+.icone-instagram::before {
+    content: url("../../../assets/imagens/icones/instagram.png");
+}
+
+.icone-facebook::before {
+    content: url("../../../assets/imagens/icones/facebook.png");
+}
+
+.icone-twitter::before {
+    content: url("../../../assets/imagens/icones/twitter.png");
 }
