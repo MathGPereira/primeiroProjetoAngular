@@ -1,0 +1,38 @@
+.sobre-servicos {
+    border-bottom: 2px solid #d2d2d2bd;
+    margin: 0 1.5em;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.sobre-servicos__titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.sobre-servicos__texto {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.sobre-servicos__card-info {
+    margin-bottom: 2rem;
+}
+
+.card-info__titulo {
+    color: #91DBE2;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.card-info__info {
+    color: #334299;
+    font-size: 40px;
+    font-weight: 700;
+}

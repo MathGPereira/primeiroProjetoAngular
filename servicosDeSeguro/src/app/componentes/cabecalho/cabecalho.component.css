@@ -8,6 +8,7 @@
 
 .cabecalho__menu-hamburguer i::before {
     content: url("../../../assets/imagens/icones/menu-hamburguer.png");
+    cursor: pointer;
 }
 
 .cabecalho__titulo {
