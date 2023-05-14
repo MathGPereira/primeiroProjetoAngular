@@ -9,6 +9,7 @@ import { SecaoInicialComponent } from './componentes/conteudo/secao-inicial/seca
 import { SobreServicosComponent } from './componentes/conteudo/sobre-servicos/sobre-servicos.component';
 import { SobrePlanosComponent } from './componentes/conteudo/sobre-planos/sobre-planos.component';
 import { SobreRecursosComponent } from './componentes/conteudo/sobre-recursos/sobre-recursos.component';
+import { PassosComponent } from './componentes/conteudo/passos/passos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SobreRecursosComponent } from './componentes/conteudo/sobre-recursos/so
     SecaoInicialComponent,
     SobreServicosComponent,
     SobrePlanosComponent,
-    SobreRecursosComponent
+    SobreRecursosComponent,
+    PassosComponent
 ],
   imports: [
     BrowserModule,

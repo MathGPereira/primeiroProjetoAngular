@@ -1,0 +1,49 @@
+.passos {
+    background-color: #FAFAFA;
+    margin-top: 5em;
+    padding: 5em 1.5em 0;
+    text-align: center;
+}
+
+.passos__titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.passos__lista {
+    margin-bottom: 5em;
+}
+
+.primeiro-item::before, .segundo-item::before, .terceiro-item::before {
+    color: #FFC300;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.primeiro-item::before {
+    content: "1.";
+}
+
+.segundo-item::before {
+    content: "2.";
+}
+
+.terceiro-item::before {
+    content: "3.";
+}
+
+.lista__item {
+    margin: 1em 0;
+}
+
+.item__titulo {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.item__descricao {
+    color: #8A8A8A;
+    font-size: 18px;
+}
