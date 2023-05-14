@@ -7,6 +7,7 @@ import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component'
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { SecaoInicialComponent } from './componentes/conteudo/secao-inicial/secao-inicial.component';
 import { SobreServicosComponent } from './componentes/conteudo/sobre-servicos/sobre-servicos.component';
+import { SobrePlanosComponent } from './componentes/conteudo/sobre-planos/sobre-planos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SobreServicosComponent } from './componentes/conteudo/sobre-servicos/so
     CabecalhoComponent,
     RodapeComponent,
     SecaoInicialComponent,
-    SobreServicosComponent
+    SobreServicosComponent,
+    SobrePlanosComponent
 ],
   imports: [
     BrowserModule,
