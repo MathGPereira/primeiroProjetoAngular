@@ -1,0 +1,73 @@
+.sobre-recursos {
+    padding: 5em 1.5em 0;
+    text-align: center;
+}
+
+.sobre-recursos__imagem-ilustrativa {
+    background: url("../../../../assets/imagens/casa-floresta.avif") no-repeat center center / cover;
+    border: 4px solid #FFFFFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 300px;
+    margin-bottom: 5em;
+    padding: 2em 0;
+    text-align: center;
+    transform: rotateZ(2deg);
+    width: 100%;
+}
+
+.sobre-recursos__titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.sobre-recursos__texto {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.sobre-recursos__vantagens {
+    display: flex;
+    text-align: left;
+}
+
+.vantagens__icone {
+    content: url("../../../../assets/imagens/icones/certinho.png");
+    display: inline-block;
+    height: 40px;
+    margin-right: 1rem;
+    width: 32px;
+}
+
+.vantagens__titulo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.vantagens__texto {
+    color: #828282;
+    margin-bottom: 2em;
+}
+
+.sobre-recursos__aprender-mais {
+    color: #8B94C5;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+
+.sobre-recursos__aprender-mais:hover {
+    color: #60668a;
+}
+
+.sobre-recursos__aprender-mais::before {
+    content: url("../../../../assets/imagens/icones/seta.png");
+    margin-right: .5em;
+    vertical-align: middle;
+}

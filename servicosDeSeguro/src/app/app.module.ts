@@ -8,6 +8,7 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { SecaoInicialComponent } from './componentes/conteudo/secao-inicial/secao-inicial.component';
 import { SobreServicosComponent } from './componentes/conteudo/sobre-servicos/sobre-servicos.component';
 import { SobrePlanosComponent } from './componentes/conteudo/sobre-planos/sobre-planos.component';
+import { SobreRecursosComponent } from './componentes/conteudo/sobre-recursos/sobre-recursos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SobrePlanosComponent } from './componentes/conteudo/sobre-planos/sobre-
     RodapeComponent,
     SecaoInicialComponent,
     SobreServicosComponent,
-    SobrePlanosComponent
+    SobrePlanosComponent,
+    SobreRecursosComponent
 ],
   imports: [
     BrowserModule,
