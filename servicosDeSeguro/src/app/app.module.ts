@@ -10,6 +10,7 @@ import { SobreServicosComponent } from './componentes/conteudo/sobre-servicos/so
 import { SobrePlanosComponent } from './componentes/conteudo/sobre-planos/sobre-planos.component';
 import { SobreRecursosComponent } from './componentes/conteudo/sobre-recursos/sobre-recursos.component';
 import { PassosComponent } from './componentes/conteudo/passos/passos.component';
+import { CarrousselComponent } from './componentes/conteudo/carroussel/carroussel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PassosComponent } from './componentes/conteudo/passos/passos.component'
     SobreServicosComponent,
     SobrePlanosComponent,
     SobreRecursosComponent,
-    PassosComponent
+    PassosComponent,
+    CarrousselComponent
 ],
   imports: [
     BrowserModule,

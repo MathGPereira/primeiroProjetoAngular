@@ -4,3 +4,7 @@ main {
     font-family: 'Roboto', sans-serif;
     min-height: calc(100vh - 67px);
 }
+
+div {
+    background-color: #FAFAFA;
+}

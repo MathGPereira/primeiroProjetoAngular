@@ -1,0 +1,79 @@
+.carroussel {
+    background-color: #FAFAFA;
+    padding: 2em 1.5em 5em;
+    text-align: center;
+}
+
+.carroussel__titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.carroussel__container {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 3em;
+    overflow-x: hidden;
+}
+
+.container__item-caroussel {
+    background-color: #FFFFFF;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 1px 1px 5px rgba(82, 82, 82, 0.377);
+    box-sizing: border-box;
+    display: none;
+    padding: .5em 1em 1em;
+    text-align: left;
+    transition: display .4s ease-in-out;
+    width: 90%;
+}
+
+.item-carroussel__ativo {
+    display: block;
+}
+
+.item__carroussel-imagem {
+    background: url("../../../../assets/imagens/perfil.png") no-repeat center center / cover;
+    height: 80px;
+    width: 80px;
+}
+
+.item-carroussel__relato {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+.item-carroussel__relato::before, .item-carroussel__relato::after {
+    content: '"';
+}
+
+.item-carroussel__info {
+    margin: 1rem 0 .5rem;
+}
+
+.info__nome {
+    color: #9194A6;
+    font-weight: 700;
+}
+
+.info__pais {
+    color: #8A8A8A;
+}
+
+.carroussel__ver-mais {
+    color: #6974B3;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.carroussel__ver-mais::before {
+    content: url("../../../../assets/imagens/icones/seta.png");
+    margin-right: 10px;
+    vertical-align: middle;
+}
