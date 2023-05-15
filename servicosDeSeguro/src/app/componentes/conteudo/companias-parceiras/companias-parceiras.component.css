@@ -1,0 +1,24 @@
+.companias {
+    padding: 4em 1.5em;
+    text-align: center;
+}
+
+.companias__titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+.companias__lista {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista__compania {
+    color: #828282;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2em;
+    width: 50%;
+}

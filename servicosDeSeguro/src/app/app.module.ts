@@ -11,6 +11,7 @@ import { SobrePlanosComponent } from './componentes/conteudo/sobre-planos/sobre-
 import { SobreRecursosComponent } from './componentes/conteudo/sobre-recursos/sobre-recursos.component';
 import { PassosComponent } from './componentes/conteudo/passos/passos.component';
 import { CarrousselComponent } from './componentes/conteudo/carroussel/carroussel.component';
+import { CompaniasParceirasComponent } from './componentes/conteudo/companias-parceiras/companias-parceiras.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CarrousselComponent } from './componentes/conteudo/carroussel/carrousse
     SobrePlanosComponent,
     SobreRecursosComponent,
     PassosComponent,
-    CarrousselComponent
+    CarrousselComponent,
+    CompaniasParceirasComponent
 ],
   imports: [
     BrowserModule,
