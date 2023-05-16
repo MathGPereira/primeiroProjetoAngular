@@ -58,3 +58,36 @@
 .formulario__botao:hover {
     background-color: #1f2966;
 }
+
+@media screen and (min-width: 1440px) {
+    .inscrever {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 5em 8em 2em;
+        text-align: left;
+    }
+
+    .inscrever__titulo {
+        border-bottom: none;
+        font-size: 40px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .inscrever__container {
+        align-items: center;
+        column-gap: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container__texto {
+        font-size: 20px;
+        width: 365px;
+    }
+
+    .container__formulario {
+        flex-grow: 1;
+    }
+}
