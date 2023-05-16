@@ -12,6 +12,7 @@ import { SobreRecursosComponent } from './componentes/conteudo/sobre-recursos/so
 import { PassosComponent } from './componentes/conteudo/passos/passos.component';
 import { CarrousselComponent } from './componentes/conteudo/carroussel/carroussel.component';
 import { CompaniasParceirasComponent } from './componentes/conteudo/companias-parceiras/companias-parceiras.component';
+import { PerguntasFrequentesComponent } from './componentes/conteudo/perguntas-frequentes/perguntas-frequentes.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CompaniasParceirasComponent } from './componentes/conteudo/companias-pa
     SobreRecursosComponent,
     PassosComponent,
     CarrousselComponent,
-    CompaniasParceirasComponent
+    CompaniasParceirasComponent,
+    PerguntasFrequentesComponent
 ],
   imports: [
     BrowserModule,

@@ -1,0 +1,60 @@
+.perguntas-frequentes {
+    padding: 5em 1.5em 0;
+    text-align: center;
+}
+
+.perguntas-frequentes__titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.perguntas-frequentes__descricao {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.perguntas-frequentes__sanfona {
+    background-color: #FFFFFF;
+    border: 2px solid #8a8a8a56;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #8a8a8a56;
+    margin-bottom: 10px;
+    max-height: 10px;
+    overflow: hidden;
+    padding: 1em;
+    text-align: left;
+}
+
+.sanfona__titulo {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.sanfona__titulo::after {
+    content: url("../../../../assets/imagens/icones/seta-para-cima.png");
+    margin-left: .5em;
+    vertical-align: middle;
+}
+
+.perguntas-frequentes__ver-mais {
+    color: #8B94C5;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+
+.perguntas-frequentes__ver-mais:hover {
+    color: #60668a;
+}
+
+.perguntas-frequentes__ver-mais::before {
+    content: url("../../../../assets/imagens/icones/seta.png");
+    margin-right: .5em;
+    vertical-align: middle;
+}
