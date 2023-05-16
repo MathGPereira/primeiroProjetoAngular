@@ -15,6 +15,7 @@ import { CompaniasParceirasComponent } from './componentes/conteudo/companias-pa
 import { PerguntasFrequentesComponent } from './componentes/conteudo/perguntas-frequentes/perguntas-frequentes.component';
 import { DestaqueComponent } from './componentes/conteudo/destaque/destaque.component';
 import { InscreverComponent } from './componentes/conteudo/inscrever/inscrever.component';
+import { MenuLateralComponent } from './componentes/menu-lateral/menu-lateral.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { InscreverComponent } from './componentes/conteudo/inscrever/inscrever.c
     CompaniasParceirasComponent,
     PerguntasFrequentesComponent,
     DestaqueComponent,
-    InscreverComponent
+    InscreverComponent,
+    MenuLateralComponent
 ],
   imports: [
     BrowserModule,
