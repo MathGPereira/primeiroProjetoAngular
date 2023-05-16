@@ -1,0 +1,37 @@
+.destaque {
+    background-color: #27316B;
+    margin-top: 5em;
+    padding: 5em 1.5em 5em;
+    text-align: center;
+}
+
+.destaque__titulo {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.destaque__texto {
+    color: #FAFAFA;
+    margin-bottom: 4em;
+}
+
+.destaque__pegar-seguro {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #27316B;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 1.5em 1em;
+    text-decoration: none;
+    transition: background-color .4s ease-in-out;
+    width: 60%;
+}
+
+.destaque__pegar-seguro:hover {
+    background-color: #AAAAAA;
+}
