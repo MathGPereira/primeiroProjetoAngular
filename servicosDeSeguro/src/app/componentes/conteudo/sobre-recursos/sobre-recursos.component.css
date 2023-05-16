@@ -71,3 +71,22 @@
     margin-right: .5em;
     vertical-align: middle;
 }
+
+@media screen and (min-width: 1440px) {
+    .sobre-recursos {
+        column-gap: 60px;
+        display: grid;
+        grid-template: repeat(4, auto) / repeat(2, 50%);
+        padding: 5em 8em 0;
+        text-align: left;
+    }
+
+    .sobre-recursos__imagem-ilustrativa {
+        grid-area: 1/1/5/2;
+        height: 100%;
+    }
+
+    .sobre-recursos__titulo {
+        font-size: 75px;
+    }
+}
