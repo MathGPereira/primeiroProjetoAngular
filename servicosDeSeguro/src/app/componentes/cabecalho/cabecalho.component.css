@@ -6,6 +6,11 @@
     padding: 2em 1.5em 0;
 }
 
+.cabecalho__menu-hamburguer {
+    background-color: transparent;
+    border: none;
+}
+
 .cabecalho__menu-hamburguer i::before {
     content: url("../../../assets/imagens/icones/menu-hamburguer.png");
     cursor: pointer;

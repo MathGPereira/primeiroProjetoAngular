@@ -7,14 +7,4 @@ import { Component } from '@angular/core';
 })
 export class CabecalhoComponent {
 
-    private menuLateral;
-
-    constructor() {
-        this.menuLateral = document.querySelector(".cabecalho__menu-hamburguer");
-        console.log(this.menuLateral)
-    }
-
-    abreMenuLateral() {
-        alert(this.menuLateral);
-    }
 }

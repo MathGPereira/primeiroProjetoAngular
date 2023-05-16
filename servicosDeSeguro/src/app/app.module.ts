@@ -16,6 +16,7 @@ import { PerguntasFrequentesComponent } from './componentes/conteudo/perguntas-f
 import { DestaqueComponent } from './componentes/conteudo/destaque/destaque.component';
 import { InscreverComponent } from './componentes/conteudo/inscrever/inscrever.component';
 import { MenuLateralComponent } from './componentes/menu-lateral/menu-lateral.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MenuLateralComponent } from './componentes/menu-lateral/menu-lateral.co
 ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
