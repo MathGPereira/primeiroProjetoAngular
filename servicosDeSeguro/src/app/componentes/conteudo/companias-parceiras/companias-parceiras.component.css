@@ -22,3 +22,18 @@
     margin-bottom: 2em;
     width: 50%;
 }
+
+@media screen and (min-width: 1440px) {
+    .companias {
+        padding: 4em 8em;
+    }
+
+    .companias__titulo {
+        font-size: 65px;
+    }
+
+    .lista__compania {
+        font-size: 35px;
+        width: 25%;
+    }
+}
