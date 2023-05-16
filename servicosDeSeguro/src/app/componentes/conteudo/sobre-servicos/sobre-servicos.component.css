@@ -1,7 +1,7 @@
 .sobre-servicos {
     border-bottom: 2px solid #d2d2d2bd;
     margin: 0 1.5em;
-    padding: 4em 0;
+    padding: 4em 1.5em;
     text-align: center;
 }
 
@@ -35,4 +35,28 @@
     color: #334299;
     font-size: 40px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    .sobre-servicos {
+        padding: 4em 8em;
+    }
+
+    .sobre-servicos__titulo {
+        font-size: 70px;
+    }
+
+    .info__container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info__titulo {
+        font-size: 30px;
+    }
+
+    .card-info__info {
+        font-size: 70px;
+    }
 }

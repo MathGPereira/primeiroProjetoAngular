@@ -11,6 +11,10 @@
     font-weight: 700;
 }
 
+.desktop {
+    display: none;
+}
+
 .inicial__descricao {
     color: #828282;
     font-size: 18px;
@@ -52,4 +56,37 @@
     text-align: center;
     transform: rotateZ(2deg);
     width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    .inicial {
+        column-gap: 67px;
+        display: grid;
+        grid-template: repeat(3, auto) / repeat(2, 50%);
+        padding: 4em 8em 4em;
+        text-align: left;
+    }
+
+    .inicial__titulo {
+        font-size: 50px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .inicial__botao {
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .inicial__imagem {
+        grid-area: 1/2/4/3;
+        height: 100%;
+    }
 }
