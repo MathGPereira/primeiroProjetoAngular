@@ -77,3 +77,19 @@
     margin-right: 10px;
     vertical-align: middle;
 }
+
+@media screen and (min-width: 1440px) {
+    .carroussel {
+        padding: 2em 8em 5em;
+        text-align: left;
+    }
+
+    .carroussel__titulo {
+        font-size: 70px;
+    }
+
+    .container__item-caroussel {
+        display: block;
+        width: 35%;
+    }
+}
