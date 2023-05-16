@@ -33,3 +33,13 @@
 .icone-twitter::before {
     content: url("../../../assets/imagens/icones/twitter.png");
 }
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        align-items: center;
+        border-top: 2px solid #d2d2d2bd;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2em 8em;
+    }
+}
