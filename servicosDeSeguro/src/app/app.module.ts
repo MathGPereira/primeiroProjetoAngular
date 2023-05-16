@@ -14,6 +14,7 @@ import { CarrousselComponent } from './componentes/conteudo/carroussel/carrousse
 import { CompaniasParceirasComponent } from './componentes/conteudo/companias-parceiras/companias-parceiras.component';
 import { PerguntasFrequentesComponent } from './componentes/conteudo/perguntas-frequentes/perguntas-frequentes.component';
 import { DestaqueComponent } from './componentes/conteudo/destaque/destaque.component';
+import { InscreverComponent } from './componentes/conteudo/inscrever/inscrever.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DestaqueComponent } from './componentes/conteudo/destaque/destaque.comp
     CarrousselComponent,
     CompaniasParceirasComponent,
     PerguntasFrequentesComponent,
-    DestaqueComponent
+    DestaqueComponent,
+    InscreverComponent
 ],
   imports: [
     BrowserModule,
