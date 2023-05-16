@@ -1,4 +1,5 @@
 # Companhia de Seguros
+![Imagem Do Projeto](./servicosDeSeguro/src/assets/imagens/imagem-projeto.png)
 
 ## Sobre
 Este projeto veio com o intuito de iniciar os meus aprendizados de um framework muito utilizado no mercado de trabalho e para a construção de grandes projetos web. O seu nome é Angular. Este permite, dentre outras coisas, uma grande escalabilidade, facilidade de realizar upgrades, melhoras, correções de bug's e componentização de código.
