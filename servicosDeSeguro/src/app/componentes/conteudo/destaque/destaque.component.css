@@ -35,3 +35,17 @@
 .destaque__pegar-seguro:hover {
     background-color: #AAAAAA;
 }
+
+@media screen and (min-width: 1440px) {
+    .destaque {
+        padding: 5em 8em 5em;
+    }
+
+    .destaque__titulo {
+        font-size: 92px;
+    }
+
+    .destaque__pegar-seguro {
+        width: 40%;
+    }
+}
